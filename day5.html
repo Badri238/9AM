@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        #pos1{
+            background-color: blue;
+            width: 50vw;
+            height: 25vh;
+            z-index: 1;
+        }
+
+        #pos2{
+            margin-top: 20px;
+            background-color: green;
+            width: 50vw;
+            height: 25vh;
+            /* z-index: -1; */
+            position: sticky;
+            top: 100px;
+        }
+
+        #pos3{
+            background-color: beige;
+            width: 50vw;
+            height: 75vh;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="pos1">
+
+    </div>
+
+    <div id="pos2">
+
+    </div>
+
+    <div id="pos3">
+        
+    </div>
+    
+    <div id="pos3">
+        <p id="id1">hello</p>
+    </div>
+
+    <script>
+        $(document).ready(()=>{
+            $("#id1").text("jrigjrg")
+        })
+    </script>
+</body>
+</html>

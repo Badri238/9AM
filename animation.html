@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #bg1{
+            height: 25vh;
+            width: 50vw;
+            background-color: brown;
+            /* transform: translate(100px,500px); */
+            /* transform: rotate(120deg); */
+            /* transform: skew(50deg); */
+            transition: 3s all;
+            margin-left: 10px;
+            
+        }
+
+        #bg2{
+            height: 20px;
+            width: 50px;
+            background-color: darkblue;
+            display: none;
+        }
+        #bg1:hover{
+            transform: scale(150%);
+        }
+        #b1{
+            display: flex;
+        }
+
+        @media screen and (max-width:600px){
+            #b1{
+            display: block;
+            background-color: yellow;
+        }
+
+        #bg1{
+            display: none;
+        }
+        
+        #bg2{
+           
+            display: block;
+        }
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="b1">
+        <div id="bg2">
+
+        </div>
+        <div id="bg1">
+
+        </div>
+        <div id="bg1">
+
+        </div>
+
+        <div id="bg1">
+
+        </div>
+    </div>
+ 
+</body>
+</html>
