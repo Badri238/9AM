@@ -2,7 +2,7 @@
 //Arithmetic
 // +,-,*,/,%
 
-//Is it insertng
+//Is it insertng new
 console.log(10 / 3)
 console.log(10 % 3)
 
