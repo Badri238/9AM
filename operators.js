@@ -3,6 +3,7 @@
 // +,-,*,/,%
 
 //Is it insertng new
+//yes i got the changes
 console.log(10 / 3)
 console.log(10 % 3)
 
